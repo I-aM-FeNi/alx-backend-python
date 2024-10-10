@@ -4,22 +4,22 @@ This module provides a function to
 zoom into an array by a given factor.
 """
 
-from typing import Tuple, List, Any
+from typing import Tuple, List
 
 
-def zoom_array(lst: Tuple[Any, ...], factor: int = 2) -> List[Any]:
+def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """
     Zoom into an array by a given factor.
 
     Args:
-        lst (Tuple[Any, ...]): The input tuple.
+        lst (Tuple): The input tuple.
         factor (int): The zoom factor.
 
     Returns:
-        List[Any]: A list where each element in the
+        List: A list where each element in the
         input tuple is repeated factor times.
     """
-    zoomed_in: List[Any] = [
+    zoomed_in: List = [
         item for item in lst
         for i in range(factor)
     ]
