@@ -1,6 +1,5 @@
 ### README.md
 
-```markdown
 # 0x00. Python - Variable Annotations
 
 This project covers the basics of variable annotations in Python. The tasks involve writing type-annotated functions and variables, ensuring code style compliance, and using type checking tools.
