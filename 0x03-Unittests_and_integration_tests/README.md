@@ -30,4 +30,4 @@ By the end of this project, you will be able to:
 - **Python Version**: Python 3.7
 - **Coding Style**: Pycodestyle (PEP 8) style (version 2.5)
 
-### Malcolm Iheremelam
+### Mamello Motaung
